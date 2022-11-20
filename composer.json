@@ -8,8 +8,11 @@
         "php": "^8.0.2",
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^9.19",
-        "laravel/sanctum": "^3.0",
-        "laravel/tinker": "^2.7"
+        "laravel/tinker": "^2.7",
+        "php-open-source-saver/jwt-auth": "^2.0",
+        "rorecek/laravel-ulid": "^2.0",
+        "spatie/laravel-data": "^2.0",
+        "spatie/laravel-fractal": "^6.0"
     },
     "require-dev": {
         "fakerphp/faker": "^1.9.1",

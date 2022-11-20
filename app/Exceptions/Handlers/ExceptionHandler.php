@@ -2,7 +2,10 @@
 
 namespace App\Exceptions\Handlers;
 
+use App\Exceptions\Exceptions\WrongAuthenticationCredentialsException;
 use Illuminate\Foundation\Exceptions\Handler;
+use Illuminate\Http\JsonResponse;
+use Illuminate\Http\Response;
 use Throwable;
 
 class ExceptionHandler extends Handler
